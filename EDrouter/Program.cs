@@ -32,6 +32,9 @@ namespace EDRouter
             Console.ReadKey();
             //De-Comment to Enable Debug Modules
             Debug.Module();
+
+            //Need to import the form for debug
+            //Rebuild the Database is required
         }
     }
     // [PermissionSet(SecurityAction.Demand, Name = "FullTrust")] 系统权限相关
